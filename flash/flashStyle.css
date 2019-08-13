@@ -11,6 +11,18 @@ div.flashRow::after {
 	display: table;
 }
 
+div.flashColInfo {
+	height: 46px;
+	line-height: 41px;
+	font-size: 30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: gray;
+	background-color: black;
+	margin-top: -6px;
+	margin-bottom: -5px;
+	text-align: center;
+}
+
 div.flashCol {
 	float: left;
 	width: 33.33%;
