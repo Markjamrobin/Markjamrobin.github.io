@@ -6,6 +6,6 @@ div.flashRow::after {
 
 div.flashCol{
 	float: left;
-	width: 30%;
+	width: 33.33%;
 	align-content: center;
 }
