@@ -6,9 +6,6 @@ html, body {
 }
 
 ul {
-  border-style: solid;
-  border-color: green;
-  border-width: 4px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   list-style: none;
@@ -23,12 +20,15 @@ li {
 }
 
 li a {
+  border-style: solid;
+  border-color: white;
+  border-width: 4px;
   display: inline-block;
   color: #3b3b3b;
   text-align: center;
-  padding: 0px 5px;
+  padding: 0px 15px;
   font-size: 30px;
-  text-decoration: none;
+  text-decoration: ;
 }
 
 li a:hover {
