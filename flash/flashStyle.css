@@ -1,0 +1,11 @@
+div.flashRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+div.flashCol{
+	float: left;
+	width: 30%;
+	align-content: center;
+}
