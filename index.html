@@ -7,26 +7,28 @@
     });
     </script>
     <style>
-      div.homeImagePairLeft {
-        margin-left: 20px;
-        float: left;
-        width: 50%;
+      div.homeImagePair {
+        content: "";
+        clear: both;
+        display: table;
       }
 
-      div.homeImagePairRight {
-        margin-right: 20px;
-        float: right;
+      div.homeImagePairElement{
+        float: left;
         width: 50%;
+        padding: 5px;
       }
     </style>
   </head> 
 
   <body> 
     <div id="NavigationBar"></div>
-    <div class="homeImagePairLeft">
-      <img class="homeImages" src="/homephotos/placeholder.jpg" alt="placeholder">
-    </div>
-    <div class="homeImagePairRight">
-      <img class="homeImages" src="/homephotos/placeholder.jpg" alt="placeholder">
+    <div class="homeImagePair">
+      <div class="homeImagePairElement">
+        <img class="homeImages" src="/homephotos/placeholder.jpg" alt="placeholder">
+      </div>
+      <div class="homeImagePairElement">
+        <img src="/homephotos/placeholder.jpg" alt="placeholder">
+      </div>
     </div>
 </body>
