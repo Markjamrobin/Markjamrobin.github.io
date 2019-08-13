@@ -6,6 +6,9 @@ html, body {
 }
 
 ul {
+  border-style: solid;
+  border-color: green;
+  border-width: 4px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   list-style: none;
@@ -21,15 +24,15 @@ li {
 
 li a {
   display: inline-block;
-  color: gray;
+  color: #3b3b3b;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0px 5px;
   font-size: 30px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #262626;
+  background-color: #4d4d4d;
 }
 
 div.tugboatTitle {
