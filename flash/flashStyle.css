@@ -4,7 +4,7 @@ div.flashRow::after {
 	display: table;
 }
 
-div.flashCol{
+div.flashCol {
 	float: left;
 	width: 33.33%;
 }
