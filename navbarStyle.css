@@ -20,6 +20,7 @@ li {
 
   margin-right: 5px;
   margin-left: 5px;
+  margin-bottom: 10px;
   
    font-size:22px;
    padding: 6px;
@@ -67,7 +68,7 @@ div.titleCaption {
   color: gray;
   background-color: black;
   margin-top: -6px;
-  margin-bottom: 0px;
+  margin-bottom: -13px;
   align-items: center; 
   justify-content: center; 
   text-align: center;
