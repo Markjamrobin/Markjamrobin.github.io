@@ -15,6 +15,7 @@ div.flashColTitle {
 	height: 46px;
 	line-height: 41px;
 	font-size: 30px;
+	text-align: center;
 	letter-spacing: 10px;
 	font-family: "Times New Roman", Times, serif;
 	color: white;
@@ -26,6 +27,7 @@ div.flashColInfo {
 	font-size: 15px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: gray;
+	text-align: center;
 	background-color: black;
 	margin-top: 0px;
 }
