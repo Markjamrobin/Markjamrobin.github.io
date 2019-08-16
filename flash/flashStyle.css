@@ -15,24 +15,19 @@ div.flashColTitle {
 	height: 46px;
 	line-height: 41px;
 	font-size: 30px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: gray;
+	letter-spacing: 10px;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
 	background-color: black;
-	margin-top: -6px;
-	margin-bottom: 5px;
-	text-align: center;
+	margin-top: 0px;
 }
 
 div.flashColInfo {
-	height: 30px;
-	line-height: 25px;
 	font-size: 15px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: gray;
 	background-color: black;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	text-align: center;
+	margin-top: 0px;
 }
 
 div.flashCol {
