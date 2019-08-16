@@ -13,6 +13,7 @@ div.homeImagePair::after {
 div.homeImagePairElement{
   float: left;
   width: 50%;
+  margin-top: 10px;
 }
 
 div.homePairTitle {
@@ -22,13 +23,14 @@ div.homePairTitle {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   background-color: black;
-  margin-top: -6px;
-  margin-bottom: -5px;
+  margin-top: 25px;
+  margin-bottom: -10px;
   text-align: center;
 }
 
 div.homePairCap {
   font-size: 18px;
+  margin-top:10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: gray;
   background-color: black;
