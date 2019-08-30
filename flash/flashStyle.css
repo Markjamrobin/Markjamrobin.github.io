@@ -3,36 +3,54 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  height:100%;
+  width:100%;
 }
 
-div.flashRow::after {
+div.row::after {
 	content: "";
 	clear: both;
+	width: 100%;
 	display: table;
 }
 
 div.flashColTitle {
-	height: 46px;
-	line-height: 41px;
-	font-size: 30px;
-	text-align: center;
-	letter-spacing: 10px;
-	font-family: "Times New Roman", Times, serif;
-	color: white;
-	background-color: black;
-	margin-top: 0px;
+  height: .85em;
+  line-height: .66em;
+  font-size: 2em;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  background-color: black;
+}
+
+hr {
+	width:50%; margin: .5% auto;
 }
 
 div.flashColInfo {
-	font-size: 15px;
+	font-size: 1em;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: gray;
 	text-align: center;
 	background-color: black;
-	margin-top: 0px;
 }
 
-div.flashCol {
+div.colText {
+	text-align: center;
 	float: left;
 	width: 33.33%;
+	vertical-align: middle;
+	margin-top: 2%;
+	margin-bottom: 8%;
+}
+
+div.col {
+  text-align: center;
+  background-color: green;
+  float: left;
+  vertical-align: middle;
+  width: 33.33%;
+  height: 65%;
+  /* display: block; */
 }
