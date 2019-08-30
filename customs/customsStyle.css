@@ -7,16 +7,19 @@ html, body {
   width:100%;
 }
 
-div.customsViewPanels::after {
+div.imagePair::after {
   content: "";
   clear: both;
   display: table;
 }
 
-div.customsBipartite {
-  height: 63%;
-  margin-top: 1.25%;
-  margin-bottom: 1.25%; 
+div.imagePairElement{
+  text-align: center;
+  background-color: green;
+  height: 65%;
+  /* margin-top: 1.25%; */
+  /* margin-bottom: 1.25%; */
   float: left;
-  width: 45.5%;
+  width: 50%;
+  margin: 0 auto;
 }
