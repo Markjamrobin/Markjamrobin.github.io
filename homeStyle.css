@@ -1,36 +1,51 @@
 html, body {
+  background-color: black;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  height:100%;
+  width:100%;
 }
 
-div.homeImagePair::after {
+div.imagePair::after {
   content: "";
   clear: both;
   display: table;
 }
 
-div.homeImagePairElement{
-  float: left;
-  width: 50%;
-  margin-top: 10px;
+div.homeText{
+  margin-top: 4%;
+  margin-bottom: 8%;
 }
 
+div.imagePairElement{
+  text-align: center;
+  background-color: green;
+  height: 65%;
+  /* margin-top: 1.25%; */
+  /* margin-bottom: 1.25%; */
+  float: left;
+  vertical-align: middle;
+  width: 50%;
+  /* margin-top: auto; */
+}
 div.homePairTitle {
-  height: 46px;
-  line-height: 41px;
-  font-size: 30px;
+  height: .85em;
+  line-height: .9em;
+  font-size: 2em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   background-color: black;
-  margin-top: 25px;
-  margin-bottom: -10px;
+  /* margin-top: 0px; */
+  /* margin-bottom: -.1em; */
+  margin: .3em auto;
   text-align: center;
+  vertical-align: middle;
 }
 
 div.homePairCap {
-  font-size: 18px;
-  margin-top:10px;
+  font-size: 1em;
+  /* margin-top:10px; */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: gray;
   background-color: black;
