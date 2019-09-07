@@ -7,9 +7,8 @@ html, body {
   width:100%;
 }
 
-div.info {
-  line-height: 1em;
-   font-size: 150%;
+div.capAndTit {
+   font-size: 200%;
   text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
@@ -23,6 +22,14 @@ div.highSet::after {
   content: "";
   clear: both;
   display: table;
+}
+
+div.flashColInfo {
+  font-size: 150%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: gray;
+  text-align: center;
+  background-color: black;
 }
 
 div.highSetElement{
