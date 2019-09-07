@@ -7,9 +7,9 @@ html, body {
   width:100%;
 }
 
-div.flashColTitle {
+div.info {
   line-height: 1em;
-  font-size: 2em;
+   font-size: 150%;
   text-align: center;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;

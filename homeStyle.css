@@ -36,15 +36,13 @@ div.homePairTitle {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   background-color: black;
-  /* margin-top: 0px; */
-  /* margin-bottom: -.1em; */
   margin: .3em auto;
   text-align: center;
   vertical-align: middle;
 }
 
 div.homePairCap {
-  font-size: 1em;
+  font-size: 150%;
   /* margin-top:10px; */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: gray;
