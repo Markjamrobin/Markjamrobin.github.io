@@ -19,13 +19,6 @@ hr {
   width:50%; margin: 2% auto;
 }
 
-div.flashColInfo {
-  font-size: 1em;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: gray;
-  text-align: center;
-}
-
 div.highSet::after {
   content: "";
   clear: both;
