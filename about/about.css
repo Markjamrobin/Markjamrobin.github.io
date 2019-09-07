@@ -20,10 +20,10 @@ div.info {
 div.row::after {
   content: "";
   clear: both;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
   background-color: green;
-  float: left;
+  /* float: left; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,14 +35,19 @@ div.box{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 div.colText {
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%; */
+  padding: 1.5% 0;
+  /* margin-right: 10%; */
   text-align: center;
   float: left;
-  width: 80%;
+  width: 100%;
   height: auto;
   vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
