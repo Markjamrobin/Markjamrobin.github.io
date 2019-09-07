@@ -7,35 +7,22 @@ html, body {
   width:100%;
 }
 
-div.flashColTitle {
-  line-height: 1em;
-  font-size: 2em;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-}
-
 hr {
   width:50%; margin: 2% auto;
 }
 
-div.flashColInfo {
-  font-size: 1em;
+div.info {
+  font-size: 150%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: gray;
-  text-align: center;
 }
 
-div.highSet::after {
+div.row::after {
   content: "";
   clear: both;
-  display: table;
-}
-
-div.highSetElement{
+  width: 100%;
   text-align: center;
   background-color: green;
-  height: 65%;
   float: left;
   display: flex;
   justify-content: center;
